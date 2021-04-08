@@ -1,7 +1,8 @@
-$orang-card: rgb(227, 136, 38);
+$orange-card: rgb(227, 136, 38);
 $blue-card: rgb(0, 105, 112);
 $blue-dark-card: rgb(0, 66, 65);
-$white: rgba(255, 255, 255, 0.75);
+$white: rgb(255, 255, 255);
+$white-transparency: rgba(255, 255, 255, 0.75);
 $light-gray: rgb(242, 242, 242);
 
 @mixin family-big {

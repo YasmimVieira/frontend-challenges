@@ -1,0 +1,59 @@
+.cards {
+    padding: 0 1rem 0 1rem;
+
+    &__card1 {
+        background-color: $orange-card;
+        height: 70vh;
+        border-radius: 0.5rem;
+        padding: 1rem;
+    }
+
+    &__card1-text {
+        line-height: 1.5rem;
+        font-size: 0.8rem;
+        color: $white-transparency;
+        @include family-lexend;
+    }
+
+   &__cards1-title {
+       font-size: 2rem;
+       @include family-big;
+       color: $white;
+   }
+
+   &__button {
+       background: none;
+       width: 50%;
+       height: 8vh;
+       border-radius: 50px;
+       background-color: $white;
+       border: none;
+       color: $orange-card;
+       cursor: pointer;
+       margin-top: 2rem;
+
+       &:hover {
+           background-color: $orange-card;
+           color: $white;
+           border: 2px solid $white;
+       }
+   }
+
+   &__card2 {
+       @extend .cards__card1;
+       background-color: $blue-card;
+   }
+
+   &__card2-text {
+        @extend .cards__card1-text;
+   }
+
+   &__card3 {
+    @extend .cards__card1;
+    background-color: $blue-dark-card;
+   }
+
+   &__card3-text {
+       @extend .cards__card1-text;
+   }
+}
