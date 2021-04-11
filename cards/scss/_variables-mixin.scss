@@ -12,3 +12,15 @@ $light-gray: rgb(242, 242, 242);
 @mixin family-lexend {
     font-family: 'Lexend Deca', sans-serif;
 }
+
+@mixin d($dispositivo) {
+    @if $dispositivo == t {
+        @media only screen and (min-width: 768px) and (max-width: 959px) { 
+            @content;
+        }
+    } @else if $dispositivo == m {
+        @media only acreen and (max-width: 767px) {
+            @content;
+        }
+    }
+}

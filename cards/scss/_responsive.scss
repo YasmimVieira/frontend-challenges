@@ -1,0 +1,17 @@
+
+@include d(t) {
+   
+    .main {
+        height: 100vh;
+        display: grid;
+        place-items: center;
+    }
+    
+    .cards {
+        display: flex;
+
+        &__button-3 {
+            margin-top: 3.2rem;
+        }
+    }
+}
