@@ -55,7 +55,7 @@
 .cards__card3 {
   background-color: #004241;
 }
-@media only screen and (min-width: 768px) and (max-width: 959px) {
+@media only screen and (min-width: 768px) {
   .main {
     height: 100vh;
     display: grid;
@@ -67,6 +67,25 @@
   }
   .cards__button-3 {
     margin-top: 3.2rem;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 2560px) {
+  .main {
+    height: 95vh;
+  }
+
+  .cards {
+    max-width: 70%;
+  }
+  .cards__card1-text, .cards__card2-text, .cards__card3-text {
+    font-size: 1rem;
+    width: 80%;
+  }
+  .cards__card1, .cards__card2, .cards__card3 {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
   }
 }
 body {
