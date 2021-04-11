@@ -12,19 +12,6 @@
         margin: 0;
     }
 
-    &__card1-text {
-        line-height: 1.5rem;
-        font-size: 0.8rem;
-        color: $white-transparency;
-        @include family-lexend;
-    }
-
-   &__cards1-title {
-       font-size: 2rem;
-       @include family-big;
-       color: $white;
-   }
-
    &__card2-img {
        @extend .cards__card1-img;
    }
@@ -34,10 +21,6 @@
        background-color: $blue-card;
    }
 
-   &__card2-text {
-        @extend .cards__card1-text;
-   }
-
    &__card3-img {
        @extend .cards__card1-img;
    }
@@ -45,9 +28,5 @@
    &__card3 {
     @extend .cards__card1;
     background-color: $blue-dark-card;
-   }
-
-   &__card3-text {
-       @extend .cards__card1-text;
    }
 }

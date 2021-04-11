@@ -8,6 +8,7 @@
   color: #e38826;
   cursor: pointer;
   margin-top: 2rem;
+  transition: 0.5s ease-out;
 }
 .cards__button:hover, .cards__button-3:hover, .cards__button-2:hover {
   background-color: #e38826;
@@ -39,6 +40,13 @@
 .cards__card1-img, .cards__card3-img, .cards__card2-img {
   margin: 0;
 }
+.cards__card2 {
+  background-color: #006970;
+}
+.cards__card3 {
+  background-color: #004241;
+}
+
 .cards__card1-text, .cards__card3-text, .cards__card2-text {
   line-height: 1.5rem;
   font-size: 0.8rem;
@@ -49,12 +57,6 @@
   font-size: 2rem;
   font-family: "Big Shoulders Display", cursive;
   color: white;
-}
-.cards__card2 {
-  background-color: #006970;
-}
-.cards__card3 {
-  background-color: #004241;
 }
 @media only screen and (min-width: 768px) {
   .main {

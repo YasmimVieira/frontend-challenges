@@ -1,0 +1,22 @@
+.cards {
+    &__card1-text {
+        line-height: 1.5rem;
+        font-size: 0.8rem;
+        color: $white-transparency;
+        @include family-lexend;
+    }
+    
+    &__cards1-title {
+       font-size: 2rem;
+       @include family-big;
+       color: $white;
+    }
+    
+    &__card2-text {
+        @extend .cards__card1-text;
+   }
+
+   &__card3-text {
+    @extend .cards__card1-text;
+  }
+}
