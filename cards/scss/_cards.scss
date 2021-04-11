@@ -4,8 +4,12 @@
     &__card1 {
         background-color: $orange-card;
         height: 70vh;
-        border-radius: 0.5rem;
+        border-radius: 5px;
         padding: 1rem;
+    }
+
+    &__card1-img {
+        margin: 0;
     }
 
     &__card1-text {
@@ -39,6 +43,10 @@
        }
    }
 
+   &__card2-img {
+       @extend .cards__card1-img;
+   }
+
    &__card2 {
        @extend .cards__card1;
        background-color: $blue-card;
@@ -46,6 +54,28 @@
 
    &__card2-text {
         @extend .cards__card1-text;
+   }
+
+   &__button-2 {
+       @extend .cards__button;
+       color: $blue-card;
+
+       &:hover {
+           background-color: $blue-card;
+       }
+   }
+
+   &__button-3 {
+       @extend .cards__button;
+       color: $blue-dark-card;
+
+       &:hover {
+           background-color: $blue-dark-card;
+       }
+   }
+
+   &__card3-img {
+       @extend .cards__card1-img;
    }
 
    &__card3 {
