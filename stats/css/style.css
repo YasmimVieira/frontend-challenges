@@ -1,0 +1,13 @@
+@import url("./untils/_variables.css");
+@import url("./_card.css");
+@import url("./_typography.css");
+
+body {
+    background-color: var(--main-blue);
+    color: var(--white);
+    display: grid;
+    font-size: var(--font-size);
+    font-family: var(--font-family-inter);
+    height: 97.5vh;
+    place-items: center;
+}

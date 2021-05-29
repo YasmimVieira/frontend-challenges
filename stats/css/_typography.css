@@ -1,0 +1,32 @@
+.stats__title {
+    font-size: 2rem;
+    margin: 0;
+    width: 80%;
+}
+
+.stats__title--purple {
+    color: var(--purple);
+}
+
+.stats__paragraph {
+    color: var(--paragraph-white); 
+    font-weight: var(--font-weight-light);
+    margin: 5% 0;
+    width: 80%
+}
+
+.stats__footer-number, .stats__footer-p {
+    font-family: var(--font-family-lexend);
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.stats__footer-number {
+    font-size: 1.5rem;
+}
+
+.stats__footer-p {
+    color: var(--paragraph-white);
+    font-size: 0.7rem;
+    font-weight: var(--font-weight-lexend);
+}

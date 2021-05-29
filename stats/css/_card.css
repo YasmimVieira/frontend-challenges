@@ -1,0 +1,32 @@
+@import url("./untils/_variables.css");
+
+.stats {
+    background-color: var(--card-blue);
+    border-radius: 0.5rem;
+    display: flex;
+    width: 80vw;
+}
+
+.stats__content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 3rem;
+}
+
+.stats__footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.stats__image {
+    margin: 0;
+    padding: 0;
+    background-color: var(--purple);
+    opacity: 0.5;
+}
+
+.stats__image--color {
+    border-radius: 0 0.5rem 0.5rem 0;
+    content: url('../img/desktop.jpg');
+}
