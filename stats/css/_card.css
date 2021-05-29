@@ -22,7 +22,6 @@
 .stats__image {
     margin: 0;
     padding: 0;
-    background-color: var(--purple);
     opacity: 0.5;
 }
 

@@ -1,0 +1,39 @@
+/*Responsividade para notebooks pequenos*/
+@media screen and (max-width: 1200px)  { 
+    .stats__image--color {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+/*Responsividade para tablets*/
+@media screen and (max-width: 768px) {
+    .stats {
+        flex-direction: column-reverse;
+        margin: 2rem;
+    }
+}
+
+/*Responsividade para celulares*/
+@media screen and (max-width: 425px) {
+    .stats__title {
+        font-size: 1.5rem;
+    }
+    
+    .stats__title, .stats__paragraph {
+        width: 100%;
+        text-align: center;
+    }
+
+    .stats__image--color {
+        content: url("../img/mobile.jpg");
+    }
+
+    .stats__footer {
+        align-items: center;
+        flex-direction: column;
+        height: 35vh;
+        margin-top: 1rem;
+        text-align: center;
+    }
+}
