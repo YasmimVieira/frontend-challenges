@@ -1,0 +1,9 @@
+@import './utils/variables';
+@import './utils/mixins';
+@import 'card';
+
+body {
+    margin: 0;
+    padding: 0;
+    background: $paple-blue url('../assets/images/pattern-background-desktop.svg') no-repeat;
+}
