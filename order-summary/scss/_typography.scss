@@ -1,0 +1,16 @@
+.plan {
+    background-color: $blue-card;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    padding: 0.9rem;
+    
+    &__annual {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        &-price {
+            display: flex;
+        }
+    }
+}

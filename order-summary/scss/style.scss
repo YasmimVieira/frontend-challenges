@@ -1,9 +1,15 @@
 @import './utils/variables';
 @import './utils/mixins';
 @import 'card';
+@import 'buttons';
+@import 'typography';
 
 body {
+    background: $paple-blue url('../assets/images/pattern-background-desktop.svg') no-repeat;
+    display: flex;
+    justify-content: center;
+    width: 100%;
     margin: 0;
     padding: 0;
-    background: $paple-blue url('../assets/images/pattern-background-desktop.svg') no-repeat;
+    font-family: 'Red Hat Display', sans-serif;
 }
